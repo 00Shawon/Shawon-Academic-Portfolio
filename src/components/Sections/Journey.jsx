@@ -17,7 +17,7 @@ const Journey = () => {
           </div>
           <h2 className="text-4xl md:text-5xl text-charcoal dark:text-white mb-6 font-bold">The Narrative Arc</h2>
           <p className="text-lg text-gray-500 dark:text-gray-400 max-w-lg leading-relaxed">
-            From the newsroom to the codebase—the evolution of a <span className="text-accent font-bold">communication-driven engineer</span>.
+            From analyzing Facebook's privacy policy to designing trust through visual language—the evolution of a <span className="text-accent font-bold">visual storyteller</span> who codes.
           </p>
         </motion.div>
 
@@ -35,11 +35,17 @@ const Journey = () => {
               className={`relative flex items-center justify-between md:justify-normal ${index % 2 === 0 ? 'md:flex-row-reverse' : ''}`}
             >
               {/* Timeline Marker with Color */}
-              <div className={`absolute left-0 top-12 w-4 h-4 rounded-full bg-white dark:bg-gray-800 border-4 border-${index % 2 === 0 ? 'accent' : 'secondary'} shadow-lg md:left-1/2 md:-ml-2 z-10 scale-125`}></div>
+              <div className={`absolute left-0 top-12 w-4 h-4 rounded-full bg-white dark:bg-gray-800 shadow-lg md:left-1/2 md:-ml-2 z-10 scale-125 ${
+                index % 2 === 0 ? 'border-4 border-accent' : 'border-4 border-secondary'
+              }`}></div>
 
               <div className={`pl-12 md:pl-0 md:w-5/12 ${index % 2 === 0 ? 'md:pl-20 text-left' : 'md:pr-20 md:text-right'}`}>
-                <div className={`inline-block mb-6 px-4 py-1.5 rounded-full bg-${index % 2 === 0 ? 'accent' : 'secondary'}/10 border border-${index % 2 === 0 ? 'accent' : 'secondary'}/20`}>
-                  <span className={`text-[10px] font-black text-${index % 2 === 0 ? 'accent' : 'secondary'} tracking-[0.3em] uppercase`}>
+                <div className={`inline-block mb-6 px-4 py-1.5 rounded-full ${
+                  index % 2 === 0 ? 'bg-accent/10 border border-accent/20' : 'bg-secondary/10 border border-secondary/20'
+                }`}>
+                  <span className={`text-[10px] font-black tracking-[0.3em] uppercase ${
+                    index % 2 === 0 ? 'text-accent' : 'text-secondary'
+                  }`}>
                     CHAPTER {item.id}
                   </span>
                 </div>
@@ -47,7 +53,7 @@ const Journey = () => {
                 <p className="text-[15px] text-gray-600 dark:text-gray-400 leading-relaxed mb-6" dangerouslySetInnerHTML={{ __html: item.description }} />
                 
                 {item.quote && (
-                  <div className="relative p-6 bg-gray-50 dark:bg-gray-900 rounded-2xl border-l-4 border-accent italic text-gray-400 text-sm leading-relaxed overflow-hidden">
+                  <div className="relative p-6 bg-gray-50 dark:bg-gray-900 rounded-2xl border-l-4 border-accent italic text-gray-500 dark:text-gray-400 text-sm leading-relaxed overflow-hidden">
                     <div className="absolute top-0 right-0 w-20 h-20 bg-accent/5 rounded-full -mr-10 -mt-10" />
                     "{item.quote}"
                   </div>

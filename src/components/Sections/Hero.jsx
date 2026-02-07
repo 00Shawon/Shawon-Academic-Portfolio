@@ -20,7 +20,7 @@ const Hero = () => {
             >
               <div className="w-12 h-0.5 bg-accent"></div>
               <p className="text-[11px] uppercase tracking-[0.4em] text-accent font-black">
-                Media Theorist & Developer
+                Communication Designer & Media Technologist
               </p>
             </motion.div>
 
@@ -30,8 +30,8 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.2 }}
               className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8 text-charcoal dark:text-white font-bold transition-colors"
             >
-              Crafting <span className="gradient-text italic-off">Experiences</span> <br />
-              that tell <span className="text-secondary">Human Stories</span>
+              She Hesitated for <br/>
+              <span className="gradient-text italic-off">47 Seconds</span>
             </motion.h1>
 
             <motion.p 
@@ -40,7 +40,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.4 }}
               className="text-lg text-gray-500 dark:text-gray-400 max-w-lg mb-12 leading-relaxed"
             >
-              Bridging the gap between journalism theory and <span className="text-charcoal dark:text-white font-semibold">robust engineering</span>. I build digital systems that facilitate participatory communication.
+              I watched a user stare at my "Pay Now" button—scrolling, rechecking, deciding whether to <span className="text-charcoal dark:text-white font-semibold">trust a stranger with her money</span>. That moment taught me: design isn't just visual—it's <span className="text-accent font-bold">information architecture, interaction patterns, and narrative</span> working together to build confidence.
             </motion.p>
 
             <motion.div 
@@ -49,9 +49,9 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-6"
             >
-              <a href="#work" 
+              <a href="#featured" 
                 className="px-8 py-4 bg-charcoal dark:bg-white text-white dark:text-charcoal rounded-2xl font-bold hover:bg-accent dark:hover:bg-gray-200 transition-all shadow-lg hover:shadow-accent/40 text-center text-sm tracking-widest">
-                EXPLORE WORK
+                VIEW FEATURED WORK
               </a>
               <a href="#journey" 
                 className="px-8 py-4 border-2 border-charcoal/5 dark:border-white/10 text-charcoal dark:text-white rounded-2xl font-bold hover:border-secondary hover:text-secondary dark:hover:text-secondary transition-all text-center text-sm tracking-widest">
@@ -76,7 +76,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-charcoal/40 to-transparent" />
               </div>
               
-              {/* Floating Badge with Color */}
+              {/* Floating Badge */}
               <motion.div
                 animate={{ y: [0, -10, 0] }}
                 transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
@@ -87,8 +87,8 @@ const Hero = () => {
                      🎓
                   </div>
                   <div>
-                    <p className="font-bold text-charcoal dark:text-white text-xs">MSS JOURNALISM</p>
-                    <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Class of 2023</p>
+                    <p className="font-bold text-charcoal dark:text-white text-xs">APPLYING TO CCIM</p>
+                    <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Ball State University</p>
                   </div>
                 </div>
               </motion.div>

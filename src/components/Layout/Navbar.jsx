@@ -4,10 +4,10 @@ import { Menu, X } from 'lucide-react';
 import ThemeToggle from '../ThemeToggle';
 
 const navLinks = [
+  { name: 'FEATURED', href: '#featured' },
+  { name: 'VISUAL WORK', href: '#design' },
+  { name: 'PROJECTS', href: '#work' },
   { name: 'JOURNEY', href: '#journey' },
-  { name: 'PROJECT', href: '#work' },
-  { name: 'DESIGN', href: '#design' },
-  { name: 'PHILOSOPHY', href: '#philosophy' },
 ];
 
 const Navbar = () => {
@@ -130,7 +130,7 @@ const Navbar = () => {
               <motion.a
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.3 }}
+                  transition={{ delay: 0.4 }}
                   href="#contact"
                   onClick={() => setIsMobileMenuOpen(false)}
                   className="text-2xl font-bold text-accent"
