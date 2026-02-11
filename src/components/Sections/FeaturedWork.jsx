@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 import sundarbansHero from '../../assets/sundarbans/sundarbans-hero.png';
 import weddingHero from '../../assets/wedding/wedding-hero.png';
-import salineVideo from '../../assets/202602111919.mp4';
+
 
 const FeaturedWork = () => {
   const featured = [
@@ -76,7 +76,7 @@ const FeaturedWork = () => {
         "CICS: Digital media and social change communication"
       ],
       tech: ["Video Production", "CapCut", "Storytelling", "Cinematography", "Interviewing"],
-      liveLink: "#", 
+      liveLink: "https://photos.app.goo.gl/UFWVZEm846bboEiK8", 
       githubLink: "#" 
     },
     {
@@ -137,25 +137,14 @@ const FeaturedWork = () => {
               {/* Image Side */}
               <div className={`relative ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] bg-gray-200 dark:bg-gray-800">
-                  {project.video ? (
-                    <video 
-                      src={project.video} 
-                      controls 
-                      className="w-full h-full object-cover"
-                      poster={project.image} // Optional: use image as poster if available
-                    >
-                      Your browser does not support the video tag.
-                    </video>
-                  ) : (
-                    <img 
-                      src={project.image} 
-                      alt={project.title}
-                      className="w-full h-full object-cover"
-                      onError={(e) => {
-                        e.target.src = `https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1000`;
-                      }}
-                    />
-                  )}
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.target.src = `https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1000`;
+                    }}
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent pointer-events-none" />
                   
                   {/* Floating badge */}
@@ -235,7 +224,7 @@ const FeaturedWork = () => {
                     className="px-6 py-3 bg-charcoal dark:bg-white text-white dark:text-charcoal rounded-xl font-bold text-sm hover:bg-accent dark:hover:bg-gray-200 transition-all shadow-lg hover:shadow-xl flex items-center gap-2"
                   >
                     <ExternalLink size={16} />
-                    View Live Prototype
+                    {project.label.includes("DOCUMENTARY") ? "Watch Documentary" : "View Live Prototype"}
                   </a>
                   <a 
                     href={project.githubLink}
