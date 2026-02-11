@@ -2,9 +2,10 @@ import { motion } from 'framer-motion';
 import { 
   SiJavascript, SiReact, SiFirebase, SiTailwindcss, SiHtml5, SiCss3, 
   SiNextdotjs, SiNodedotjs, SiExpress, SiMongodb, 
-  SiReactquery, SiGit, SiVite, SiVercel, SiFigma 
+  SiReactquery, SiGit, SiVite, SiVercel, SiFigma,
+  SiCanva, SiDavinciresolve 
 } from 'react-icons/si';
-import { FiCode } from 'react-icons/fi';
+import { FiCode, FiVideo } from 'react-icons/fi';
 
 const TechStack = () => {
   const categories = [
@@ -34,8 +35,10 @@ const TechStack = () => {
       skills: [
         { name: "Git", icon: <SiGit />, color: "text-[#F05032]" },
         { name: "VS Code", icon: <FiCode />, color: "text-[#007ACC]" },
-        { name: "Vite", icon: <SiVite />, color: "text-[#646CFF]" },
-        { name: "Figma", icon: <SiFigma />, color: "text-[#F24E1E]" }
+        { name: "Figma", icon: <SiFigma />, color: "text-[#F24E1E]" },
+        { name: "Canva", icon: <SiCanva />, color: "text-[#00C4CC]" },
+        { name: "CapCut", icon: <FiVideo />, color: "text-gray-800 dark:text-gray-200" },
+        { name: "DaVinci (Learning)", icon: <SiDavinciresolve />, color: "text-[#3E7BFA]" }
       ]
     }
   ];

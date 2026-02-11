@@ -3,8 +3,8 @@ import { FiMail, FiPhone, FiLinkedin, FiGithub, FiArrowRight } from 'react-icons
 
 const Contact = () => {
   const socialLinks = [
-    { label: "LinkedIn", icon: <FiLinkedin />, href: "#", color: "hover:bg-[#0077B5]" },
-    { label: "GitHub", icon: <FiGithub />, href: "#", color: "hover:bg-[#333]" },
+    { label: "LinkedIn", icon: <FiLinkedin />, href: "https://www.linkedin.com/in/mehedi-hassan-shawon", color: "hover:bg-[#0077B5]" },
+    { label: "GitHub", icon: <FiGithub />, href: "https://github.com/00Shawon", color: "hover:bg-[#333]" },
     { label: "Email", icon: <FiMail />, href: "mailto:mehedishawon121@gmail.com", color: "hover:bg-accent" }
   ];
 
@@ -43,7 +43,9 @@ const Contact = () => {
               {socialLinks.map((link) => (
                 <a 
                   key={link.label}
-                  href={link.href} 
+                  href={link.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`w-12 h-12 flex items-center justify-center rounded-2xl bg-gray-50 dark:bg-gray-900 text-gray-400 dark:text-gray-500 ${link.color} hover:text-white transition-all duration-500 shadow-sm hover:shadow-xl hover:-translate-y-1`}
                   title={link.label}
                 >

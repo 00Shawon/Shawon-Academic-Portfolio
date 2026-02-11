@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 import sundarbansHero from '../../assets/sundarbans/sundarbans-hero.png';
 import weddingHero from '../../assets/wedding/wedding-hero.png';
+import salineVideo from '../../assets/202602111919.mp4';
 
 const FeaturedWork = () => {
   const featured = [
@@ -42,6 +43,41 @@ const FeaturedWork = () => {
       tech: ["Information Design", "Leaflet.js", "Chart.js", "A-Frame", "React", "MongoDB"],
       liveLink: "https://euphonious-begonia-df38cb.netlify.app/",
       githubLink: "https://github.com/00Shawon/Sundorban"
+    },
+    {
+      title: "Saline Scars: A Water Crisis Documentary",
+      label: "DOCUMENTARY — Visual Storytelling",
+      tagline: "Documenting the Silent Crisis of Climate Change in the Sundarbans",
+      description: "A short documentary film capturing the devastating impact of rising salinity on the lives of coastal communities in Dacope, Khulna. Through raw, on-ground reporting and intimate interviews, this film highlights the human cost of climate change where water—the source of life—has become a poison.",
+      hook: "When the river that sustains you turns against you, where do you go?",
+      video: salineVideo,
+      highlights: [
+        "Field Reporting: On-location filming in Dacope, capturing the reality of water scarcity",
+        "Visual Narrative: Crafted a compelling story arc focusing on human resilience",
+        "Video Editing: Professional editing and color grading using CapCut to evoke emotional resonance",
+        "Community engagement: Interviews with affected families, farmers, and local leaders"
+      ],
+      approach: "Using video as a medium for advocacy, this project moves beyond statistics to show the lived experience of climate displacement. The goal was to make the invisible crisis of salinity visible and emotionally urgent.",
+      
+      // DUAL FRAMING
+      emddAlignment: [
+        "Digital storytelling for social impact",
+        "Multimedia production & editing",
+        "Community-centered narrative design"
+      ],
+      cicsAlignment: [
+        "Communicating complex environmental issues",
+        "Visual media production for public awareness",
+        "Digital advocacy campaigns"
+      ],
+      
+      facultyAlignment: [
+        "Dr. Moloney (EMDD): Visual storytelling & transmedia narratives",
+        "CICS: Digital media and social change communication"
+      ],
+      tech: ["Video Production", "CapCut", "Storytelling", "Cinematography", "Interviewing"],
+      liveLink: "#", 
+      githubLink: "#" 
     },
     {
       title: "Bengali Wedding Digital Experience",
@@ -101,15 +137,26 @@ const FeaturedWork = () => {
               {/* Image Side */}
               <div className={`relative ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] bg-gray-200 dark:bg-gray-800">
-                  <img 
-                    src={project.image} 
-                    alt={project.title}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.src = `https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1000`;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent" />
+                  {project.video ? (
+                    <video 
+                      src={project.video} 
+                      controls 
+                      className="w-full h-full object-cover"
+                      poster={project.image} // Optional: use image as poster if available
+                    >
+                      Your browser does not support the video tag.
+                    </video>
+                  ) : (
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                      onError={(e) => {
+                        e.target.src = `https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1000`;
+                      }}
+                    />
+                  )}
+                  <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent pointer-events-none" />
                   
                   {/* Floating badge */}
                   <div className="absolute top-6 left-6">

@@ -240,6 +240,7 @@ const Design = () => {
               transition={{ delay: index * 0.1 }}
               onClick={() => openModal(design)}
               className="group cursor-pointer"
+              data-cursor-text="Click"
             >
               <div className="relative overflow-hidden rounded-2xl bg-white dark:bg-gray-900 shadow-lg aspect-[4/3]">
                 <div className="absolute inset-0 bg-slate-200 dark:bg-gray-800 animate-pulse" />
