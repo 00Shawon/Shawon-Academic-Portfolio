@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github } from 'lucide-react';
 import sundarbansHero from '../../assets/sundarbans/sundarbans-hero.png';
 import weddingHero from '../../assets/wedding/wedding-hero.png';
+import documentaryHero from '../../assets/Documentry.png';
 
 
 const FeaturedWork = () => {
@@ -50,7 +51,7 @@ const FeaturedWork = () => {
       tagline: "Documenting the Silent Crisis of Climate Change in the Sundarbans",
       description: "A short documentary film capturing the devastating impact of rising salinity on the lives of coastal communities in Dacope, Khulna. Through raw, on-ground reporting and intimate interviews, this film highlights the human cost of climate change where water—the source of life—has become a poison.",
       hook: "When the river that sustains you turns against you, where do you go?",
-
+      image: documentaryHero, 
       highlights: [
         "Field Reporting: On-location filming in Dacope, capturing the reality of water scarcity",
         "Visual Narrative: Crafted a compelling story arc focusing on human resilience",
@@ -136,19 +137,28 @@ const FeaturedWork = () => {
             >
               {/* Image Side */}
               <div className={`relative ${index % 2 === 1 ? 'lg:order-2' : ''}`}>
-                <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] bg-gray-200 dark:bg-gray-800">
-                  <img 
-                    src={project.image} 
-                    alt={project.title}
-                    className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.src = `https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1000`;
-                    }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent pointer-events-none" />
+                <div className="relative rounded-3xl overflow-hidden shadow-2xl aspect-[4/3] bg-gray-200 dark:bg-gray-800 group">
+                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="block w-full h-full cursor-pointer">
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                      onError={(e) => {
+                        e.target.src = `https://images.unsplash.com/photo-1579546929518-9e396f3cc809?auto=format&fit=crop&q=80&w=1000`;
+                      }}
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-charcoal/60 to-transparent pointer-events-none" />
+                    
+                    {/* Hover Overlay */}
+                    <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none bg-black/20">
+                         <div className="w-16 h-16 bg-white/20 backdrop-blur-md rounded-full flex items-center justify-center border border-white/40 transform scale-90 group-hover:scale-100 transition-transform duration-300 shadow-xl">
+                            <ExternalLink className="text-white w-6 h-6" />
+                         </div>
+                    </div>
+                  </a>
                   
                   {/* Floating badge */}
-                  <div className="absolute top-6 left-6">
+                  <div className="absolute top-6 left-6 pointer-events-none">
                     <span className="px-4 py-2 bg-accent text-white font-bold text-xs uppercase tracking-wider rounded-full shadow-lg">
                       {project.label.split('—')[0]}
                     </span>
