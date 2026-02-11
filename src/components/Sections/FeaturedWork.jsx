@@ -236,15 +236,17 @@ const FeaturedWork = () => {
                     <ExternalLink size={16} />
                     {project.label.includes("DOCUMENTARY") ? "Watch Documentary" : "View Live Prototype"}
                   </a>
-                  <a 
-                    href={project.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="px-6 py-3 border-2 border-charcoal dark:border-white text-charcoal dark:text-white rounded-xl font-bold text-sm hover:bg-charcoal hover:text-white dark:hover:bg-white dark:hover:text-charcoal transition-all flex items-center gap-2"
-                  >
-                    <Github size={16} />
-                    View Code
-                  </a>
+                  {project.githubLink !== "#" && (
+                    <a 
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-6 py-3 border-2 border-charcoal dark:border-white text-charcoal dark:text-white rounded-xl font-bold text-sm hover:bg-charcoal hover:text-white dark:hover:bg-white dark:hover:text-charcoal transition-all flex items-center gap-2"
+                    >
+                      <Github size={16} />
+                      View Code
+                    </a>
+                  )}
                 </div>
 
                 {/* Faculty Alignment */}
