@@ -5,7 +5,7 @@ export const journeyData = [
   {
     id: 1,
     title: "The Interface Is The Message",
-    description: "Four years studying journalism because I believed stories shape reality. Then I analyzed Facebook's privacy policy for my thesis—and discovered <strong>the interface was telling a story more powerful than any article</strong>. Every notification placement, color choice, and interaction pattern was shaping perception. Marshall McLuhan was right: we shape our tools, then our tools shape us.",
+    description: "Four years studying journalism because I believed stories shape reality. Then I analyzed privacy related issue for my thesis—and discovered <strong>the interface was telling a story more powerful than any article</strong>. Every notification placement, color choice, and interaction pattern was shaping perception. Marshall McLuhan was right: we shape our tools, then our tools shape us.",
     quote: "That's when I stopped being a journalist who codes and became a communication designer who builds systems."
   },
   {

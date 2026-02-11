@@ -121,9 +121,14 @@ const TechStack = () => {
               <h4 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">Master of Social Science</h4>
               <p className="text-gray-400 text-lg font-medium">Mass Communication & Journalism • Khulna University</p>
             </div>
-            <div className="px-10 py-5 bg-white/5 backdrop-blur-md rounded-3xl font-black text-xs uppercase tracking-[0.2em] border border-white/10 hover:bg-white hover:text-charcoal transition-all text-center">
-               Thesis: Digital Privacy & Identity
-            </div>
+            <a 
+              href="https://drive.google.com/file/d/1GtgKCJQ2d10WYLIL5rFwp_y6T_TatRtb/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-10 py-5 bg-white/5 backdrop-blur-md rounded-3xl font-black text-xs uppercase tracking-[0.2em] border border-white/10 hover:bg-white hover:text-charcoal transition-all text-center block group/thesis"
+            >
+               Thesis: <span className="text-accent group-hover/thesis:text-charcoal transition-colors">privacy related issue</span>
+            </a>
           </div>
         </motion.div>
       </div>
