@@ -50,7 +50,7 @@ const FeaturedWork = () => {
       tagline: "Documenting the Silent Crisis of Climate Change in the Sundarbans",
       description: "A short documentary film capturing the devastating impact of rising salinity on the lives of coastal communities in Dacope, Khulna. Through raw, on-ground reporting and intimate interviews, this film highlights the human cost of climate change where water—the source of life—has become a poison.",
       hook: "When the river that sustains you turns against you, where do you go?",
-      video: salineVideo,
+
       highlights: [
         "Field Reporting: On-location filming in Dacope, capturing the reality of water scarcity",
         "Visual Narrative: Crafted a compelling story arc focusing on human resilience",
