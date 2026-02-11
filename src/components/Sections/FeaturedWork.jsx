@@ -42,7 +42,7 @@ const FeaturedWork = () => {
         "CICS Applied Research Institute: Climate communication research"
       ],
       tech: ["Information Design", "Leaflet.js", "Chart.js", "A-Frame", "React", "MongoDB"],
-      liveLink: "https://euphonious-begonia-df38cb.netlify.app/",
+      liveLink: "https://sundorban.vercel.app/",
       githubLink: "https://github.com/00Shawon/Sundorban"
     },
     {
