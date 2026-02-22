@@ -48,7 +48,7 @@ const CommunicationApproach = () => {
             Communication-Centered Design
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto text-xl leading-relaxed">
-            Every project starts with a communication challenge. I combine information design, multimedia production, user experience, and technical execution to solve it.
+            Every project starts with a communication challenge. I combine information design, multimedia production, user experience, and technical execution to examine how digital platforms shape inclusion and exclusion.
           </p>
         </motion.div>
 
@@ -126,23 +126,6 @@ const CommunicationApproach = () => {
                 <strong>Solution:</strong> Information architecture + visual communication
               </p>
             </div>
-          </div>
-        </motion.div>
-
-        {/* GA Skills Callout */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mt-12 p-8 bg-gradient-to-r from-accent/10 to-secondary/10 rounded-3xl border border-accent/20"
-        >
-          <div className="text-center">
-            <h3 className="text-xl font-bold text-charcoal dark:text-white mb-4">
-              Graduate Assistantship Ready
-            </h3>
-            <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto leading-relaxed">
-              I bring technical development skills (React, Node.js, databases), research experience (SPSS, survey design, user interviews), multimedia production capability (video editing, graphic design), and documentation skills—ready to support faculty research, lab projects, or community partnerships from day one.
-            </p>
           </div>
         </motion.div>
       </div>

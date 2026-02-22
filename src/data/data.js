@@ -5,31 +5,32 @@ export const journeyData = [
   {
     id: 1,
     title: "The Interface Is The Message",
-    description: "Four years studying journalism because I believed stories shape reality. Then I analyzed privacy related issue for my thesis—and discovered <strong>the interface was telling a story more powerful than any article</strong>. Every notification placement, color choice, and interaction pattern was shaping perception. Marshall McLuhan was right: we shape our tools, then our tools shape us.",
-    quote: "That's when I stopped being a journalist who codes and became a communication designer who builds systems."
+    description: "Four years studying journalism because I believed stories shape reality. Then I analyzed Facebook privacy violations for my thesis—surveying 141 Bangladeshi university students and discovering that <strong>89.4% activated privacy settings yet 40.4% remained publicly exposed</strong>. The interface was telling a story more powerful than any article. Every notification placement, color choice, and interaction pattern was shaping perception—not due to user negligence, but structural interface complexity designed for different contexts.",
+    quote: "That's when I stopped being a journalist who codes and became a researcher who builds systems to understand digital inequality."
   },
   {
     id: 2,
-    title: "Building Trust Through Visual Language",
-    description: "After my thesis, I taught myself React and built a ticket booking platform. During user testing, I watched someone hover over 'Pay Now' for <strong>47 seconds</strong>. She wasn't evaluating my code—she was deciding whether to trust a stranger with her money. That moment clarified everything: <strong>design is not decoration. It's information architecture, interaction patterns, and visual hierarchy working together to build confidence</strong>.",
-    quote: "Every pixel, color choice, and spacing decision was either reinforcing or weakening trust."
+    title: "Building Trust Through Design",
+    description: "After my thesis, I taught myself React and built a ticket booking platform. During user testing, I watched someone hover over 'Pay Now' for <strong>47 seconds</strong>. She wasn't evaluating my code—she was deciding whether to trust a stranger with her money. That moment clarified everything: <strong>design decisions influence user behavior at moments of vulnerability</strong>. Typography, color palettes, iconography, and interface feedback shape whether users feel informed and respected.",
+    quote: "What makes a digital transaction feel trustworthy versus extractive? This gap between technical execution and emotional experience became central to my work."
   },
   {
     id: 3,
     title: "The Sundarbans Project",
-    description: "8 million Bangladeshis will lose their homes to rising seas by 2050. Despite its global significance, this crisis remains invisible in climate narratives. I'm building an interactive platform combining <strong>information design, geospatial data visualization, and documentary storytelling</strong> to make distant disaster tangible. Starting with Gabura village as a pilot—deep community documentation before scaling.",
-    quote: "Can information architecture and multimedia production make a climate crisis feel as urgent as a flooded street?"
+    description: "Bangladesh produces <0.5% of global greenhouse gas emissions yet faces catastrophic climate vulnerability. I'm building an interactive platform documenting how <strong>Global North emissions materialize as Global South dispossession</strong>—combining geospatial data visualization, documentary storytelling, and field research conducted in Bangla with coastal communities. Starting with Gabura village, centering community voices as knowledge producers rather than extracting data for external consumption.",
+    quote: "How do we communicate ecological crisis in ways that don't collapse tropical displacement into Western-centric narratives centered on Arctic ice?"
   },
   {
     id: 4,
-    title: "Communication Design as Cultural Translation",
-    description: "Designed a digital experience for Bengali wedding ceremonies—three days of ritual spanning continents. This wasn't about forms and RSVP buttons. It was about <strong>how information architecture, visual communication, and interaction design can translate cultural meaning</strong> to people unfamiliar with the tradition. How do you organize complex information while honoring emotional and cultural weight?"
+    title: "Decolonial Design Practice",
+    description: "Designed a digital experience for South Asian Muslim wedding ceremonies in four languages—Arabic, Urdu, Bangla, and English—where <strong>each carries equal visual and narrative weight</strong>. Instead of treating Arabic as RTL 'exception' or Bangla as 'translation,' the architecture positions each language as foundational design logic. This required systematic override of framework defaults that assume Latin-script primacy.",
+    quote: "What does digital sovereignty look like at the interface level? What design methodologies emerge when we reject the assumption that English is primary?"
   },
   {
     id: 5,
-    title: "Why Graduate Study at Ball State CCIM",
-    description: "I've been building the skill set piecemeal: documentary production, information design, data visualization, full-stack development. Graduate study is where these become a unified practice. Where I learn to rigorously validate what I've been testing through iteration. Where <strong>information architecture, narrative craft, visual communication, research methodology, and technical execution merge into a single discipline</strong>.",
-    quote: "How do we design communication systems that are rigorous, ethical, and worthy of trust? That's the question I'm ready to explore through research and applied work."
+    title: "Why Graduate Study",
+    description: "My research began with analyzing how Western-designed interfaces systematically fail users in Global South contexts. Professional experience as frontend developer for UK-based tech company exposed the material reality of digital divides—<strong>applications loading in 2 seconds in London took 18 seconds in Khulna</strong>, not as technical failure but as infrastructural inequality. Graduate study is where these experiences become rigorous research—where <strong>critical platform analysis, decolonial design methodologies, and community-engaged inquiry</strong> merge into a unified practice.",
+    quote: "How do technologies designed in Silicon Valley undergo spatial transformation when deployed elsewhere? That's the question I'm ready to explore through research."
   }
 ];
 

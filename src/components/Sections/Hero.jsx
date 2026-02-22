@@ -20,7 +20,7 @@ const Hero = () => {
             >
               <div className="w-12 h-0.5 bg-accent"></div>
               <p className="text-[11px] uppercase tracking-[0.4em] text-accent font-black">
-                Communication Designer & Media Technologist
+                Researcher & Critical Media Technologist
               </p>
             </motion.div>
 
@@ -30,8 +30,8 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.2 }}
               className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8 text-charcoal dark:text-white font-bold transition-colors"
             >
-              She Hesitated for <br/>
-              <span className="gradient-text italic-off">47 Seconds</span>
+              Designing Across <br/>
+              <span className="gradient-text italic-off">Uneven Infrastructures</span>
             </motion.h1>
 
             <motion.p 
@@ -40,7 +40,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.4 }}
               className="text-lg text-gray-500 dark:text-gray-400 max-w-lg mb-12 leading-relaxed"
             >
-              I watched a user stare at my "Pay Now" button—scrolling, rechecking, deciding whether to <span className="text-charcoal dark:text-white font-semibold">trust a stranger with her money</span>. That moment taught me: design isn't just visual—it's <span className="text-accent font-bold">information architecture, interaction patterns, and narrative</span> working together to build confidence.
+              I am a journalist-turned-developer investigating how <span className="text-charcoal dark:text-white font-semibold">global digital platforms operate differently across uneven infrastructures</span>. My work bridges critical media studies with technical practice—examining the <span className="text-accent font-bold">political economy of design decisions</span> that shape who gets included and excluded from digital systems.
             </motion.p>
 
             <motion.div 
@@ -84,11 +84,11 @@ const Hero = () => {
               >
                 <div className="flex items-center gap-4">
                   <div className="w-12 h-12 bg-accent/20 rounded-2xl flex items-center justify-center text-2xl text-accent">
-                     🎓
+                     🔬
                   </div>
                   <div>
-                    <p className="font-bold text-charcoal dark:text-white text-xs">APPLYING TO CCIM</p>
-                    <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Ball State University</p>
+                    <p className="font-bold text-charcoal dark:text-white text-xs">RESEARCH FOCUS</p>
+                    <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Digital Inequality & Platform Governance</p>
                   </div>
                 </div>
               </motion.div>

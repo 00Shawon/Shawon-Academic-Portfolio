@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "TripHub",
       date: "January 2026",
-      description: "Three-sided marketplace connecting travelers, ticket vendors, and platform admins with role-based workflows and transactional integrity. Handles booking lifecycle from search → payment → fulfillment with fraud prevention and real-time availability tracking.",
+      description: "Full-stack marketplace with role-based dashboards, real-time booking tracking, and Stripe payment integration. User testing revealed 47-second hesitation before payment—users were not evaluating functionality, but trust. This insight drove complete UI redesign around transparency, psychological safety signals, and visible vendor accountability.",
       images: [
         "https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&q=80&w=1000",
         "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&q=80&w=1000",

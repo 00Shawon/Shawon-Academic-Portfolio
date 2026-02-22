@@ -4,6 +4,7 @@ import { Menu, X } from 'lucide-react';
 import ThemeToggle from '../ThemeToggle';
 
 const navLinks = [
+  { name: 'RESEARCH', href: '#research' },
   { name: 'FEATURED', href: '#featured' },
   { name: 'VISUAL WORK', href: '#design' },
   { name: 'PROJECTS', href: '#work' },

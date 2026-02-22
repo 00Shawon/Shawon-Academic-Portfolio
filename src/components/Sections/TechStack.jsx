@@ -119,7 +119,7 @@ const TechStack = () => {
             <div className="text-center md:text-left">
               <span className="text-[10px] font-black text-accent uppercase tracking-[0.35em] mb-4 block">Education</span>
               <h4 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">Master of Social Science</h4>
-              <p className="text-gray-400 text-lg font-medium">Mass Communication & Journalism • Khulna University</p>
+              <p className="text-gray-400 text-lg font-medium">Mass Communication & Journalism • Khulna University • CGPA: 3.11/4.00</p>
             </div>
             <a 
               href="https://drive.google.com/file/d/1GtgKCJQ2d10WYLIL5rFwp_y6T_TatRtb/view?usp=sharing" 
@@ -127,7 +127,7 @@ const TechStack = () => {
               rel="noopener noreferrer"
               className="px-10 py-5 bg-white/5 backdrop-blur-md rounded-3xl font-black text-xs uppercase tracking-[0.2em] border border-white/10 hover:bg-white hover:text-charcoal transition-all text-center block group/thesis"
             >
-               Thesis: <span className="text-accent group-hover/thesis:text-charcoal transition-colors">privacy related issue</span>
+               Thesis: <span className="text-accent group-hover/thesis:text-charcoal transition-colors">Analyzing Facebook-Related Privacy Violations Among University Students</span>
             </a>
           </div>
         </motion.div>

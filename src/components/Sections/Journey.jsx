@@ -17,7 +17,7 @@ const Journey = () => {
           </div>
           <h2 className="text-4xl md:text-5xl text-charcoal dark:text-white mb-6 font-bold">The Narrative Arc</h2>
           <p className="text-lg text-gray-500 dark:text-gray-400 max-w-lg leading-relaxed">
-            From analyzing privacy related issue to designing trust through visual language—the evolution of a <span className="text-accent font-bold">visual storyteller</span> who codes.
+            From analyzing Facebook privacy violations to investigating digital inequality across infrastructures—the evolution of a <span className="text-accent font-bold">researcher</span> who builds.
           </p>
         </motion.div>
 

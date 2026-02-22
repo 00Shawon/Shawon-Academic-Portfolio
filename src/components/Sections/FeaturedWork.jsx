@@ -8,40 +8,20 @@ import documentaryHero from '../../assets/Documentry.png';
 const FeaturedWork = () => {
   const featured = [
     {
-      title: "Sundarbans Climate Crisis Platform",
-      label: "CAPSTONE PROJECT — Information Design & Documentary",
-      tagline: "Making Invisible Displacement Visible Through Data & Narrative",
-      description: "Interactive platform combining information architecture, geospatial data visualization, and documentary storytelling to communicate climate displacement. Translates complex environmental data into accessible public narratives while documenting community impact through multimedia production.",
-      hook: "How do you design information systems that make distant crises feel urgent and measurable?",
+      title: "Sundarbans Climate Displacement Platform",
+      label: "RESEARCH PROJECT — Climate & Data Visualization",
+      tagline: "Making Climate Futures Present",
+      description: "Interactive platform documenting how Global North emissions materialize as Global South dispossession. Bangladesh produces <0.5% of global greenhouse gas emissions yet faces catastrophic climate vulnerability—this project examines what it means to make distant ecological violence present and actionable.",
+      hook: "How do we communicate ecological crisis in ways that don't collapse tropical displacement into Western-centric narratives?",
       image: sundarbansHero,
       highlights: [
-        "Information Architecture: Organizing climate data, scientific projections, and community stories for diverse audiences",
-        "Geospatial Visualization: Leaflet.js mapping showing 2030/2040/2050 sea-level rise for Gabura village",
-        "Documentary Production: Interviews with fishermen, farmers, forest guards documenting lived experience",
-        "Data Translation: Motion graphics and visual explainers making scientific data emotionally accessible",
-        "User-Centered Design: Pilot study methodology—understand one community profoundly, then scale"
+        "Geospatial Mapping: Leaflet.js visualization showing Gabura village's projected transformation from 2000 to 2050",
+        "Community Research: Field research conducted in Bangla with coastal communities affected by sea-level rise and cyclone intensification",
+        "Data Integration: Bangladesh Meteorological Department, IPCC AR6, and NOAA cyclone datasets",
+        "Scroll-based Narrative: Temporal data visualization making scientific projections emotionally accessible"
       ],
-      approach: "Starting with Gabura village as a pilot mirrors participatory research methodology: deep community documentation before regional expansion. This project bridges information design (making data clear) and documentary storytelling (making data human).",
-      
-      // DUAL FRAMING for both programs
-      emddAlignment: [
-        "Documentary production with community partners",
-        "Transmedia storytelling across data viz + video + AR",
-        "Visual narrative design for public engagement"
-      ],
-      cicsAlignment: [
-        "Information architecture for complex climate datasets",
-        "Geospatial data visualization and mapping systems",
-        "User experience design for non-expert audiences"
-      ],
-      
-      facultyAlignment: [
-        "Dr. Palilonis (EMDD): Data visualization & information design",
-        "Dr. Fisher (EMDD): Community-driven AR & spatial justice",
-        "Dr. Moloney (EMDD): Transmedia storytelling",
-        "CICS Applied Research Institute: Climate communication research"
-      ],
-      tech: ["Information Design", "Leaflet.js", "Chart.js", "A-Frame", "React", "MongoDB"],
+      approach: "Conducted field research in Bangla with coastal communities—centering their voices as knowledge producers rather than extracting data for external academic consumption. This engages questions of climate witnessing: how do we communicate ecological crisis without collapsing tropical displacement into Western-centric narratives?",
+      tech: ["React", "Leaflet.js", "Chart.js", "Framer Motion"],
       liveLink: "https://sundorban.vercel.app/",
       githubLink: "https://github.com/00Shawon/Sundorban"
     },
@@ -59,43 +39,25 @@ const FeaturedWork = () => {
         "Community engagement: Interviews with affected families, farmers, and local leaders"
       ],
       approach: "Using video as a medium for advocacy, this project moves beyond statistics to show the lived experience of climate displacement. The goal was to make the invisible crisis of salinity visible and emotionally urgent.",
-      
-      // DUAL FRAMING
-      emddAlignment: [
-        "Digital storytelling for social impact",
-        "Multimedia production & editing",
-        "Community-centered narrative design"
-      ],
-      cicsAlignment: [
-        "Communicating complex environmental issues",
-        "Visual media production for public awareness",
-        "Digital advocacy campaigns"
-      ],
-      
-      facultyAlignment: [
-        "Dr. Moloney (EMDD): Visual storytelling & transmedia narratives",
-        "CICS: Digital media and social change communication"
-      ],
       tech: ["Video Production", "CapCut", "Storytelling", "Cinematography", "Interviewing"],
       liveLink: "https://photos.app.goo.gl/UFWVZEm846bboEiK8", 
       githubLink: "#" 
     },
     {
-      title: "Bengali Wedding Digital Experience",
-      label: "CULTURAL DESIGN — Communication Strategy",
-      tagline: "Translating Cultural Ritual into Visual Information Systems",
-      description: "Designed comprehensive digital communication platform for Bengali wedding ceremonies spanning three cultural days. Focused on information architecture, visual communication design, and interaction patterns that translate complex cultural meaning for international audiences unfamiliar with tradition.",
-      hook: "How do you design information systems that communicate cultural meaning across audiences?",
+      title: "Cultural Wedding Storytelling Platform",
+      label: "DECOLONIAL DESIGN — Multilingual Architecture",
+      tagline: "Decolonial Design Practice",
+      description: "Platform documenting South Asian Muslim wedding ceremonies in four languages (Arabic, Urdu, Bangla, English) where each carries equal visual and narrative weight—refusing the English-first, Western-default assumptions embedded in modern web frameworks.",
+      hook: "What does digital sovereignty look like at the interface level?",
       image: weddingHero,
       highlights: [
-        "Information Architecture: Organizing three-day ceremony timeline for diverse audience understanding",
-        "Visual Communication: Custom illustration system translating cultural symbols into accessible graphics",
-        "Typography & Hierarchy: Connecting Bengali script heritage to digital information design",
-        "Interaction Design: Guiding international guests through unfamiliar cultural contexts",
-        "Accessibility Focus: Mobile-first design for low-bandwidth, multi-continental access"
+        "Multilingual Architecture: Arabic, Urdu, Bangla, and English treated as foundational design logics, not translation afterthoughts",
+        "Framework Override: Systematic override of Next.js/Tailwind defaults that assume Latin-script primacy",
+        "Cultural Narrative: Complete narrative across three ceremonies (Akth/Nikah, Holud, Wedding Reception)",
+        "Community Features: Filterable photo archive (100+ images), guest blessing system, Quranic verse integration"
       ],
-      approach: "This wasn't just aesthetics—it was a communication design problem. How do visual systems, information hierarchy, and interaction patterns translate cultural ritual for people who've never experienced these traditions?",
-      tech: ["UX Design", "Information Architecture", "React", "Figma", "Illustrator", "Firebase"],
+      approach: "Instead of treating Arabic as RTL 'exception' or Bangla as 'translation,' the architecture positions each language as foundational design logic. This explores what design methodologies emerge when we reject the assumption that English is primary and everything else is secondary.",
+      tech: ["Next.js", "Tailwind", "Multilingual Architecture", "RTL Design"],
       liveLink: "https://rafar-shawon.vercel.app/",
       githubLink: "https://github.com/00Shawon/Rafar-Biye"
     }
@@ -115,13 +77,13 @@ const FeaturedWork = () => {
           className="text-center mb-20"
         >
           <span className="inline-block text-accent font-bold tracking-wider text-sm uppercase mb-4 px-4 py-2 bg-accent/10 rounded-full border border-accent/20">
-            Graduate Work Preview
+            Applied Research
           </span>
           <h2 className="text-5xl md:text-6xl font-bold text-charcoal dark:text-white mb-6">
             Featured Projects
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto text-xl leading-relaxed">
-            Where information design, documentary storytelling, and technical execution intersect to solve communication challenges.
+            Where critical inquiry, community-engaged research, and technical execution intersect to examine digital inequality and platform governance.
           </p>
         </motion.div>
 
@@ -248,23 +210,6 @@ const FeaturedWork = () => {
                     </a>
                   )}
                 </div>
-
-                {/* Faculty Alignment */}
-                {project.facultyAlignment && (
-                  <div className="mt-8 p-5 bg-gradient-to-br from-purple-50 to-blue-50 dark:from-gray-800 dark:to-gray-900 rounded-xl border border-purple-100 dark:border-gray-700">
-                    <h4 className="text-xs font-bold text-purple-900 dark:text-purple-300 uppercase tracking-wider mb-3">
-                      CCIM Faculty & Research Alignment
-                    </h4>
-                    <ul className="space-y-2">
-                      {project.facultyAlignment.map((faculty, i) => (
-                        <li key={i} className="text-sm text-purple-800 dark:text-purple-200 flex items-start gap-2">
-                          <span>•</span>
-                          <span>{faculty}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
               </div>
             </motion.article>
           ))}

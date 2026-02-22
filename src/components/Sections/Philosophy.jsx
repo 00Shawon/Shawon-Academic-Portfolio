@@ -1,50 +1,57 @@
 import { motion } from 'framer-motion';
+import { Layers, Heart, Shield, Sparkles } from 'lucide-react';
 
 const Philosophy = () => {
   const principles = [
     {
-      title: "Information Architecture Shapes Understanding",
-      description: "How we organize data determines what people can understand. Clear hierarchies, intuitive navigation, and thoughtful structure make complex information accessible.",
-      icon: "📊"
+      icon: <Layers size={32} />,
+      title: "Infrastructural Integrity",
+      description: "Design isn't just visual; it's the invisible infrastructure that dictates who gets to participate. I build systems that respect local constraints while pushing for global standard performance.",
+      color: "accent"
     },
     {
-      title: "State Changes Are Emotional Transitions",
-      description: "Interface feedback, color shifts, and motion cues don't just show technical state—they shape how users interpret success, failure, and uncertainty. Design the feeling, not just the function.",
-      icon: "🎭"
+      icon: <Heart size={32} />,
+      title: "Emotional Labor of the Interface",
+      description: "Every interaction is a moment of care or extraction. I prioritize design that reduces cognitive load and honors the dignity of the user's time and intent.",
+      color: "secondary"
     },
     {
-      title: "Trust is Constructed Through Micro-Decisions",
-      description: "Typography, color palettes, spacing, iconography—every visual choice signals whether users feel informed, respected, and safe. Trust isn't declared; it's designed pixel by pixel.",
-      icon: "🔐"
+      icon: <Shield size={32} />,
+      title: "Relational Agency",
+      description: "Moving beyond 'users' to 'participants'. Architecture should empower community agency, allowing populations to reshape their digital environments rather than being shaped by them.",
+      color: "purple-500"
     },
     {
-      title: "Narrative Makes Data Human",
-      description: "Statistics alone don't move people. Documentary storytelling, personal accounts, and visual narrative transform abstract information into tangible, urgent communication.",
-      icon: "🎬"
+      icon: <Sparkles size={32} />,
+      title: "Making Knowledge Human",
+      description: "Translating abstract research and complex datasets into tangible, legible, and actionable public narratives that bridge the gap between academia and community.",
+      color: "accent"
     }
   ];
 
   return (
-    <section id="philosophy" className="py-32 px-8 bg-charcoal dark:bg-gray-950 relative overflow-hidden">
-      {/* Background gradients */}
-      <div className="absolute top-0 left-0 w-96 h-96 bg-accent/10 blur-[120px] rounded-full pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-secondary/10 blur-[150px] rounded-full pointer-events-none" />
-
-      <div className="max-w-5xl mx-auto relative z-10">
-        <motion.div 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-20"
+    <section id="philosophy" className="py-32 px-8 bg-gray-50 dark:bg-gray-900 overflow-hidden relative transition-colors duration-300">
+      {/* Decorative background numbers/letters */}
+      <div className="absolute top-20 right-10 text-[20vw] font-black text-gray-200/20 dark:text-gray-800/20 select-none pointer-events-none tracking-tighter">
+        ETHOS
+      </div>
+      
+      <div className="max-w-6xl mx-auto relative z-10">
+        <motion.div
+           initial={{ opacity: 0, y: 30 }}
+           whileInView={{ opacity: 1, y: 0 }}
+           viewport={{ once: true }}
+           className="mb-24"
         >
-          <span className="inline-block text-accent font-bold tracking-wider text-sm uppercase mb-4 px-4 py-2 bg-accent/10 rounded-full border border-accent/20">
-            Design Thinking
+          <span className="inline-block text-[10px] font-black tracking-[0.4em] uppercase text-accent mb-6 px-4 py-1.5 border border-accent/20 rounded-full bg-accent/5">
+            Philosophy
           </span>
-          <h2 className="text-5xl md:text-6xl font-bold text-white mb-6">
-            Core Philosophy
+          <h2 className="text-4xl md:text-5xl lg:text-6xl text-charcoal dark:text-white font-bold mb-8 tracking-tighter">
+            Critical Practice & <br />
+            <span className="italic-off gradient-text font-serif">Infrastructural Care</span>
           </h2>
-          <p className="text-gray-400 max-w-2xl mx-auto text-xl leading-relaxed">
-            Principles forged through user testing, thesis research, and building communication systems where clarity and trust are non-negotiable.
+          <p className="text-xl text-gray-500 dark:text-gray-400 max-w-2xl leading-relaxed">
+            I believe technology should be a tool for respatialization and sovereignty, not a mechanism for standardized exclusion.
           </p>
         </motion.div>
 

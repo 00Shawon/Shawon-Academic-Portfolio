@@ -1,11 +1,13 @@
 import Navbar from './components/Layout/Navbar';
 import CustomCursor from './components/UI/CustomCursor';
 import Hero from './components/Sections/Hero';
+import ResearchInterests from './components/Sections/ResearchInterests';
 import FeaturedWork from './components/Sections/FeaturedWork';
 import CommunicationApproach from './components/Sections/CommunicationApproach';
 import Design from './components/Sections/Design';
 import Work from './components/Sections/Work';
 import Journey from './components/Sections/Journey';
+import AcademicBackground from './components/Sections/AcademicBackground';
 import Philosophy from './components/Sections/Philosophy';
 import TechStack from './components/Sections/TechStack';
 import Contact from './components/Sections/Contact';
@@ -18,11 +20,13 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <ResearchInterests />
         <FeaturedWork />
         <CommunicationApproach />
         <Design />
         <Work />
         <Journey />
+        <AcademicBackground />
         <Philosophy />
         <TechStack />
         <Contact />
