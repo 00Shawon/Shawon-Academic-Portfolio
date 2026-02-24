@@ -20,7 +20,7 @@ const Hero = () => {
             >
               <div className="w-12 h-0.5 bg-accent"></div>
               <p className="text-[11px] uppercase tracking-[0.4em] text-accent font-black">
-                Researcher & Critical Media Technologist
+                Digital Public Infrastructure Researcher | Climate Tech for Vulnerable Communities
               </p>
             </motion.div>
 
@@ -30,8 +30,8 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.2 }}
               className="text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-8 text-charcoal dark:text-white font-bold transition-colors"
             >
-              Designing Across <br/>
-              <span className="gradient-text italic-off">Uneven Infrastructures</span>
+              Mehedi Hassan <br/>
+              <span className="gradient-text">Shawon</span>
             </motion.h1>
 
             <motion.p 
@@ -40,7 +40,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 0.4 }}
               className="text-lg text-gray-500 dark:text-gray-400 max-w-lg mb-12 leading-relaxed"
             >
-              I am a journalist-turned-developer investigating how <span className="text-charcoal dark:text-white font-semibold">global digital platforms operate differently across uneven infrastructures</span>. My work bridges critical media studies with technical practice—examining the <span className="text-accent font-bold">political economy of design decisions</span> that shape who gets included and excluded from digital systems.
+              Building accessible digital systems for climate-vulnerable communities in Bangladesh's coastal regions. Bridging <span className="text-charcoal dark:text-white font-semibold">technical development with community-engaged research</span> to create infrastructure that works within real-world constraints — <span className="text-accent font-bold">limited bandwidth, mobile-first access, and multilingual requirements</span>.
             </motion.p>
 
             <motion.div 
@@ -88,7 +88,7 @@ const Hero = () => {
                   </div>
                   <div>
                     <p className="font-bold text-charcoal dark:text-white text-xs">RESEARCH FOCUS</p>
-                    <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Digital Inequality & Platform Governance</p>
+                    <p className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">Climate Tech & Digital Public Infrastructure</p>
                   </div>
                 </div>
               </motion.div>

@@ -1,7 +1,9 @@
 import Navbar from './components/Layout/Navbar';
 import CustomCursor from './components/UI/CustomCursor';
 import Hero from './components/Sections/Hero';
+import About from './components/Sections/About';
 import ResearchInterests from './components/Sections/ResearchInterests';
+import DevelopmentImpact from './components/Sections/DevelopmentImpact';
 import FeaturedWork from './components/Sections/FeaturedWork';
 import CommunicationApproach from './components/Sections/CommunicationApproach';
 import Design from './components/Sections/Design';
@@ -20,7 +22,9 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <About />
         <ResearchInterests />
+        <DevelopmentImpact />
         <FeaturedWork />
         <CommunicationApproach />
         <Design />

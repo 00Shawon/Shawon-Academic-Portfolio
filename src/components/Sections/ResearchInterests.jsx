@@ -5,22 +5,22 @@ const ResearchInterests = () => {
   const areas = [
     {
       icon: <Globe size={32} />,
-      title: "Digital Respatialization",
-      description: "How technologies designed in Silicon Valley undergo spatial transformation when deployed in Global South contexts—examining the gap between intended functionality and lived experience across infrastructural divides.",
-      detail: "My London-based work revealed that applications loading in 2 seconds in UK took 18 seconds in Bangladesh—not as technical failure, but as designed inequality.",
+      title: "Digital Public Infrastructure for Climate Adaptation",
+      description: "How can we build information systems that serve climate-vulnerable communities within infrastructural constraints (low bandwidth, mobile-first, multilingual)? Examining scalable approaches to early warning systems, displacement coordination, and resource allocation that work in contexts of limited digital infrastructure.",
+      detail: "Focusing on Bangladesh's coastal regions where 15 million residents face catastrophic climate displacement yet lack accessible digital information systems.",
       color: "accent"
     },
     {
       icon: <Shield size={32} />,
-      title: "Platform Governance & Technological Sovereignty",
-      description: "The political economy of design decisions—analyzing how interface architecture, payment systems, and data structures encode assumptions about users, markets, and power that systematically exclude Global South populations.",
+      title: "Platform Governance & Digital Sovereignty",
+      description: "Investigating how Western-designed technologies encode assumptions about users, markets, and power that systematically exclude Global South populations. Analyzing payment systems, data structures, and interface architectures that create designed inequality across global contexts.",
       detail: "Investigating what it means to build platforms that refuse Western-default assumptions.",
       color: "secondary"
     },
     {
       icon: <Languages size={32} />,
-      title: "Decolonial Design Methodologies",
-      description: "Building digital experiences where Arabic, Urdu, Bangla, and English carry equal weight—not as translation afterthoughts, but as foundational design logics.",
+      title: "Community-Engaged Design Methodologies",
+      description: "Centering affected communities as knowledge producers rather than data sources — conducting research in Bangla, respecting local context, avoiding extractive practices. Developing participatory design approaches that prioritize community ownership and long-term sustainability.",
       detail: "Examining how cultural practices resist reduction into standardized Western templates.",
       color: "purple-500"
     }
@@ -46,7 +46,7 @@ const ResearchInterests = () => {
             Areas of Inquiry
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-3xl mx-auto text-xl leading-relaxed">
-            My work investigates how global digital platforms operate differently across uneven infrastructures, with focus on three interconnected areas.
+            Preparing for graduate study examining the intersection of technology, climate adaptation, and community-centered design.
           </p>
         </motion.div>
 
@@ -86,7 +86,7 @@ const ResearchInterests = () => {
           className="p-8 bg-gradient-to-r from-accent/10 to-secondary/10 rounded-3xl border border-accent/20 text-center"
         >
           <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed max-w-3xl mx-auto">
-            I am preparing for graduate study at the intersection of <span className="text-accent font-bold">critical media studies</span>, <span className="text-secondary font-bold">platform analysis</span>, and <span className="font-bold text-charcoal dark:text-white">community-engaged research</span> in climate-vulnerable regions.
+            I am particularly interested in <span className="text-accent font-bold">spatial approaches to global studies</span> examining how processes of <span className="text-secondary font-bold">digital globalization</span> produce <span className="font-bold text-charcoal dark:text-white">uneven geographies of access, power, and technological possibility</span>.
           </p>
         </motion.div>
       </div>
