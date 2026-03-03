@@ -53,9 +53,9 @@ const Hero = () => {
                 className="px-8 py-4 bg-charcoal dark:bg-white text-white dark:text-charcoal rounded-2xl font-bold hover:bg-accent dark:hover:bg-gray-200 transition-all shadow-lg hover:shadow-accent/40 text-center text-sm tracking-widest">
                 VIEW FEATURED WORK
               </a>
-              <a  target="_blank" href="https://docs.google.com/document/d/1Xct2rn1e_d7IKZA-6XgXoUqIiT50HygyQN_dx6k6b68/edit?usp=sharing" 
+              <a  target="_blank" href="https://drive.google.com/file/d/1AAdNpy062D9JYnmDp9hC2PNkA-lt83pa/view?usp=sharing" 
                 className="px-8 py-4 border-2 border-charcoal/5 dark:border-white/10 text-charcoal dark:text-white rounded-2xl font-bold hover:border-secondary hover:text-secondary dark:hover:text-secondary transition-all text-center text-sm tracking-widest">
-                VIEW POLICY PAPER
+                VIEW POLICY BRIEF
               </a>
             </motion.div>
           </div>

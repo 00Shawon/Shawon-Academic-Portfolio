@@ -106,31 +106,7 @@ const TechStack = () => {
         </div>
 
         {/* Dynamic Academic Card */}
-        <motion.div 
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          className="mt-32 p-12 bg-charcoal dark:bg-gray-900 rounded-[3rem] text-white relative overflow-hidden group border border-white/5 dark:border-gray-800"
-        >
-          <div className="absolute top-0 right-0 w-80 h-80 bg-accent/20 blur-[100px] rounded-full -mr-32 -mt-32 transition-all group-hover:bg-accent/40" />
-          <div className="absolute bottom-0 left-0 w-64 h-64 bg-secondary/20 blur-[80px] rounded-full -ml-32 -mb-32 transition-all group-hover:bg-secondary/40" />
-          
-          <div className="relative flex flex-col md:flex-row items-center justify-between gap-12">
-            <div className="text-center md:text-left">
-              <span className="text-[10px] font-black text-accent uppercase tracking-[0.35em] mb-4 block">Education</span>
-              <h4 className="text-3xl md:text-4xl font-bold mb-3 tracking-tight">Master of Social Science</h4>
-              <p className="text-gray-400 text-lg font-medium">Mass Communication & Journalism • Khulna University • CGPA: 3.11/4.00</p>
-            </div>
-            <a 
-              href="https://drive.google.com/file/d/1GtgKCJQ2d10WYLIL5rFwp_y6T_TatRtb/view?usp=sharing" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="px-10 py-5 bg-white/5 backdrop-blur-md rounded-3xl font-black text-xs uppercase tracking-[0.2em] border border-white/10 hover:bg-white hover:text-charcoal transition-all text-center block group/thesis"
-            >
-               Thesis: <span className="text-accent group-hover/thesis:text-charcoal transition-colors">Analyzing Facebook-Related Privacy Violations Among University Students</span>
-            </a>
-          </div>
-        </motion.div>
+      
       </div>
     </section>
   );

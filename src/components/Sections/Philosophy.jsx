@@ -83,12 +83,12 @@ const Philosophy = () => {
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          className="mt-20 p-10 bg-gradient-to-br from-accent/20 to-secondary/20 rounded-3xl border border-white/10 text-center"
+          className="mt-20 p-10 bg-gradient-to-br from-accent/80 to-secondary/80 rounded-3xl border border-white/80 text-center"
         >
           <p className="text-3xl font-serif italic text-white mb-4 leading-relaxed">
             "We shape our tools, and thereafter our tools shape us."
           </p>
-          <p className="text-gray-400 font-medium">
+          <p className="text-white font-medium">
             — Marshall McLuhan
           </p>
         </motion.div>

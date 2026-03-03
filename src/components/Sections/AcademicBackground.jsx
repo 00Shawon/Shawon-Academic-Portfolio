@@ -80,7 +80,7 @@ const AcademicBackground = () => {
                 </p>
                 <p className="mt-3 text-gray-400 leading-relaxed">
                   Research combining quantitative survey methods (n=141) with qualitative interviews examining gaps between privacy intention and outcome among Bangladeshi users navigating interfaces designed for Western contexts.
-                </p>
+                </p>   
               </div>
             </div>
           </motion.div>
@@ -112,6 +112,14 @@ const AcademicBackground = () => {
                 <p className="mt-3 text-gray-400 leading-relaxed">
                   Documented psychological consequences: 62% reported lasting trust issues; 46% experienced depression following violations.
                 </p>
+                  <a 
+              href="https://drive.google.com/file/d/1GtgKCJQ2d10WYLIL5rFwp_y6T_TatRtb/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-10 mt-5 py-5 bg-white/5 backdrop-blur-md rounded-3xl font-black text-xs uppercase tracking-[0.2em] border border-white/10 hover:bg-white hover:text-charcoal transition-all text-center block group/thesis"
+            >
+               Thesis: <span className="text-accent group-hover/thesis:text-charcoal transition-colors">Analyzing Facebook-Related Privacy Violations Among University Students</span>
+            </a>
               </div>
             </div>
           </motion.div>
